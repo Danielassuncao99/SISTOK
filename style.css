@@ -4,14 +4,19 @@
 *{
     font-family: rubik;
 }
+
+main{
+   padding-left: 20px;
+   
+}
 #sistok{
     font-size: 32px;
     padding: 10px 10px 10px 10px;
+   
+
     
 }
-#logo{
-    
-}   
+
 .nav_header{
     padding: 30px;
     background-color: white;
@@ -49,19 +54,141 @@
     margin: 10px;
 }
 
-.home{
-
-}
-.home>h1{
-    font-size: bold;
-}
 #p16 {
     font-size: 16px;
 }
-.sistokImg{
-    margin-left: 100px;
+.Text{
+   text-align: left;
+   flex-direction: column;
+   display: flex;
+}
+.Text>h1{
+    font-size: 40px;
+}
+#sistokImg{
+  margin-left: 90px;
+  margin-bottom: 100px;
 }
 #qc{
-    margin-left: 10px;
-    margin-bottom: 100px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: #304F86;
+    background-color: #304F8C;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.img1{
+    flex-direction: row;
+    display: flex;
+}
+.homeNav{
+    flex-direction: row;
+    display: flex;
+}
+.NavNav{
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    padding-right: 50px;
+}
+.NavNav>span{
+    font-size: 17px;
+    font-weight: bold;
+}
+.NavNav>p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.navservicos{
+    flex-direction: row;
+    display: flex;
+
+}
+.servicosbotton{
+    flex-direction: column;
+    display: flex;
+    margin-left: 30px;
+    width: 268px;
+    height: 208;  
+}
+.servicosbotton>img{
+    
+    width: 67px;
+    height: 67px;
+    padding: 20px;
+}
+.servicosbotton>p{
+    text-align: left;
+}
+
+.img2{
+    
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Text2{
+    
+    margin-right: 690px;
+    text-align: right;
+    flex-direction: column;
+    display: flex;
+    font-size: 16px;
+    font-weight: normal;
+    color: #4C5D73;
+    width: 676px;
+    height: 278px;
+    text-align: left;
+}
+.Text2>input{
+    border: 2px solid #304F8C ;
+    width: 248px;
+    height: 48px;
+    background: #ffffff;
+    color: #304F8C;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.atuacao{
+    width: 1155px;
+    height: 424;
+}
+
+.NAVAtuacaoPrincipal{
+    flex-direction: row;
+    display: flex;
+}
+
+.NavAtuacao{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    width: 268px;
+    height: 208px;
+}
+.NavAtuacao>img{
+    
+    width: 105px;
+    height: 105px;
+
+}
+.planos{
+    width: 268px;
+    height: 288px;
+}
+.navplanos{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
 }
