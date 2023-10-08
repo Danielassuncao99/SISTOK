@@ -1,53 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
+* {
     font-family: rubik;
 }
 
-main{
-   padding-left: 20px;
-   
+main {
+    padding-left: 20px;
+
 }
-#sistok{
+
+#sistok {
     font-size: 32px;
     padding: 10px 10px 10px 10px;
-   
 
-    
+
+
 }
 
-.nav_header{
+.nav_header {
     padding: 30px;
     background-color: white;
 }
-#sobre{
+
+#sobre {
     margin-left: 100px;
-    color:#4C5D73 ;
+    color: #4C5D73;
 }
 
-#servicos{
+#servicos {
     padding: 20px;
-    color:#4C5D73 ;
+    color: #4C5D73;
 }
-#atuacao{
+
+#atuacao {
     padding: 20px;
-    color:#4C5D73 ;
+    color: #4C5D73;
 
 }
-#planos{
+
+#planos {
     padding: 20px;
-    color:#4C5D73 ;
+    color: #4C5D73;
 }
-#ajuda{
+
+#ajuda {
     padding: 20px;
-    color:#4C5D73 ;
+    color: #4C5D73;
 }
-#cadastre{
-    color:#304F8C;
+
+#cadastre {
+    color: #304F8C;
 }
-#entra{
-    background-color:white;
+
+#entra {
+    background-color: white;
     color: #304F8C;
     border-radius: 10px;
     padding: 10px 30px 10px 30px;
@@ -57,19 +63,23 @@ main{
 #p16 {
     font-size: 16px;
 }
-.Text{
-   text-align: left;
-   flex-direction: column;
-   display: flex;
+
+.Text {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
 }
-.Text>h1{
+
+.Text>h1 {
     font-size: 40px;
 }
-#sistokImg{
-  margin-left: 90px;
-  margin-bottom: 100px;
+
+#sistokImg {
+    margin-left: 90px;
+    margin-bottom: 100px;
 }
-#qc{
+
+#qc {
     width: 250px;
     height: 60px;
     border-radius: 10px;
@@ -79,52 +89,61 @@ main{
     font-size: 16px;
     font-weight: bold;
 }
-.img1{
+
+.img1 {
     flex-direction: row;
     display: flex;
 }
-.homeNav{
+
+.homeNav {
     flex-direction: row;
     display: flex;
 }
-.NavNav{
+
+.NavNav {
     text-align: left;
     flex-direction: column;
     display: flex;
     padding-right: 50px;
 }
-.NavNav>span{
+
+.NavNav>span {
     font-size: 17px;
     font-weight: bold;
 }
-.NavNav>p{
+
+.NavNav>p {
     font-size: 14px;
     font-weight: normal;
 }
-.navservicos{
+
+.navservicos {
     flex-direction: row;
     display: flex;
 
 }
-.servicosbotton{
+
+.servicosbotton {
     flex-direction: column;
     display: flex;
     margin-left: 30px;
     width: 268px;
-    height: 208;  
+    height: 208;
 }
-.servicosbotton>img{
-    
+
+.servicosbotton>img {
+
     width: 67px;
     height: 67px;
     padding: 20px;
 }
-.servicosbotton>p{
+
+.servicosbotton>p {
     text-align: left;
 }
 
-.img2{
-    
+.img2 {
+
     width: 100vw;
     display: inline-flex;
     align-items: center;
@@ -132,8 +151,8 @@ main{
 
 }
 
-.Text2{
-    
+.Text2 {
+
     margin-right: 690px;
     text-align: right;
     flex-direction: column;
@@ -145,8 +164,9 @@ main{
     height: 278px;
     text-align: left;
 }
-.Text2>input{
-    border: 2px solid #304F8C ;
+
+.Text2>input {
+    border: 2px solid #304F8C;
     width: 248px;
     height: 48px;
     background: #ffffff;
@@ -156,17 +176,17 @@ main{
     border-radius: 10px;
 }
 
-.atuacao{
+.atuacao {
     width: 1155px;
     height: 424;
 }
 
-.NAVAtuacaoPrincipal{
+.NAVAtuacaoPrincipal {
     flex-direction: row;
     display: flex;
 }
 
-.NavAtuacao{
+.NavAtuacao {
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -175,20 +195,150 @@ main{
     width: 268px;
     height: 208px;
 }
-.NavAtuacao>img{
-    
+
+.NavAtuacao>img {
+
     width: 105px;
     height: 105px;
 
 }
-.planos{
+
+.planos1 {
+    
     width: 268px;
     height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+    padding: 10px;
 }
-.navplanos{
+/* plano iniciante*/
+.planos1>input {
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    
+}
+/* plano basico*/
+.planos2 {
+    
+    width: 268px;
+    height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+      padding: 10px;
+  
+}
+
+
+.planos2>input {
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    margin-top: 20px;
+    
+}
+/* plano essencial*/
+.planos3 {
+    
+    width: 268px;
+    height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+      padding: 10px;
+  
+}
+.planos3>input {
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    
+}
+/* plano grande*/
+.planos4 {
+    
+    width: 268px;
+    height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+      padding: 10px;
+  
+}
+.planos4>input {
+    border: 2px solid red;
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    
+    
+}
+
+
+
+
+#basico1 {
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+     
+}
+
+#basico2{
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+     
+}
+#basico3{
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+    margin-bottom: 20px;
+     
+}
+#popular{
+    width: 70%;
+    text-align: center;
+    background-color: #94F2E9;
+    color: #304F8C;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+#basico4{
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+    margin-top: 32px;
+     
+    
+}
+
+.navplanos {
     flex-direction: row;
     align-items: center;
     display: flex;
     text-align: center;
-    
+
+
 }
