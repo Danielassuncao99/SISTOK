@@ -243,7 +243,7 @@ main {
     align-items: flex-start; /* Centraliza o conteúdo verticalmente */
     justify-content: center;
       padding: 10px;
-      box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+      box-shadow: 5px 5px 5px rgb(254, 255, 255);
   
 }
 
@@ -266,11 +266,21 @@ main {
     flex-direction: column;
     align-items: flex-start; /* Centraliza o conteúdo verticalmente */
     justify-content: center;
-      padding: 10px;
-      box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+    background-color: #304F86;
+    border-radius: 10px;
+    padding: 10px;
+    
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
   
 }
+#popular{
+    margin-top: -60px;
+    margin-left: 25px;
+
+
+}
 .planos3>input {
+    
     border-radius: 10px;
     border-color: #304F8C;
     background-color: #ffffff;
@@ -287,12 +297,12 @@ main {
     flex-direction: column;
     align-items: flex-start; /* Centraliza o conteúdo verticalmente */
     justify-content: center;
-      padding: 10px;
-      box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+     padding: 10px;
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
   
 }
 .planos4>input {
-    border: 2px solid red;
+   
     border-radius: 10px;
     border-color: #304F8C;
     background-color: #ffffff;
@@ -320,11 +330,12 @@ main {
      
 }
 #basico3{
+    
     width: 220px; /* Defina a largura do botão */
     height: 48px; /* Defina a altura do botão */
     background-color: #ffffff; /* Cor de fundo do botão */
     color: #304F8C; /* Cor do texto do botão */
-    margin-bottom: 20px;
+    margin-top: 20px;
      
 }
 #popular{
@@ -355,3 +366,120 @@ main {
 
 
 }
+/*parte  do final do site*/
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    font-size: ;
+}
+
+.recursos{
+   
+    width: 120px;
+    height: 226px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+   
+}
+#irecurso{
+    font-weight: bold;
+}
+
+#lista1{
+    width: 97px;
+    height: 226px;
+    line-height: 23px;
+    
+}
+
+.precos{
+    width: 183px;
+    height: 158px;
+    
+    color:#ffffff ;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    
+    
+
+}
+#ipreco{
+    font-weight: bold;
+}
+#lista2{
+    line-height: 23px;
+}
+.contato{
+    
+    width: 100px;
+    height: 130px;
+    color: #ffffff;
+    margin-top: 20px;
+
+
+}
+#icontato{
+    font-weight: bold;
+}
+#lista4{
+    width: 100px;
+    height: 130px;
+}
+.institucional{
+    width: 169;
+    height: 158;
+    color: #ffffff;
+    margin-top: 20px;
+}
+#instucional{
+    font-weight: bold;
+}
+#lista5{
+    width: 169;
+    height: 158;
+    line-height: 23px;
+}
+.email{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 10px;
+    line-height: 50px;
+
+}
+.email>input{
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.email>img{
+    display: flex;
+    margin-top: 10px;
+}
+.email>::placeholder{
+    padding: 10px;
+}
+
+.final1 p{
+
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    
+
+}
+.final1{
+    background-color: black;
+    margin-top: -15px;
+}
+
